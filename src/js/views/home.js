@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
 import "../../styles/home.css";
-import fondo from "../../img/intro.jpg"
 import { Card } from "../component/card";
 import { Link, useHistory } from "react-router-dom";
 
@@ -12,7 +11,7 @@ export const Home = () => {
 	return (
 		// PAGINA DE INICIO DE LA APLICACION (TIPO FEED DE EVENTOS DISPONIBLES)
 		<div className="position-relative">
-			<div id="bg-home" style={{ backgroundImage: `url(${fondo})` }} >
+			<div id="bg-home">
 				<div className='parallax-home'>
 					<div className="home-caption">
 						<p className="slider-title">LOS MEJORES EVENTOS</p>
@@ -35,7 +34,7 @@ export const Home = () => {
 
 				{/* TITULO */}
 				<div className="container-title" id="scrollToEvent">
-					<h1 className="text-center my-5 text-black">EVENTOS</h1>
+					<h1 className="text-center my-5 text-white">EVENTOS</h1>
 				</div>
 
 				{/* LISTA DE EVENTOS */}

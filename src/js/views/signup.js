@@ -18,7 +18,7 @@ export const Signup = () => {
     console.log(store.user);
     return (
         <div>
-            <div id="bg" style={{ backgroundImage: `url(${fondo})` }} >
+            <div id="bg-signup">
                 <div className="container-signup container-form mb-5">
                     {/* <!---heading----> */}
                     <header className="heading">Crea tu usuario</header>

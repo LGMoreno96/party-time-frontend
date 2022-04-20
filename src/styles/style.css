@@ -26,7 +26,20 @@ body, html {
     height: 100%;
     background-color: rgba(237, 235, 235 ,0.26);
 } */
-
+#bg{
+    background: rgb(241,49,118);
+    background: linear-gradient(66deg, rgba(241,49,118,1) 0%, rgba(231,120,35,1) 100%, rgba(0,72,233,1) 100%);
+    background-size: cover;
+    min-height: 100vh;
+}
+#bg-signup{
+    background: rgb(253,29,29);
+    background: linear-gradient(210deg, rgba(253,29,29,1) 0%, rgba(170,228,48,1) 0%, rgba(0,72,233,1) 100%);    
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-size: cover;
+    min-height: 100vh;
+}
 #bg-home{
     background-position: center;
     background-repeat:no-repeat;

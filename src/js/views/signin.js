@@ -1,6 +1,5 @@
 import React, { useState, useContext } from "react";
 import "../../styles/style.css";
-import fondo from "../../img/fondo2.jpg"
 import { Context } from "../store/appContext";
 import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
@@ -16,7 +15,7 @@ export const Signin = () => {
 
 	return (
 		<div>
-			<div id="bg" style={{ backgroundImage: `url(${fondo})` }} >
+			<div id="bg" >
 				<div className="container-home container-form mb-5">
 					{/* <!---heading----> */}
 					<header className="heading">Ingresar</header>

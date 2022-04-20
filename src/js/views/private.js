@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { Context } from "../store/appContext";
 import "../../styles/home.css"; 
-import fondo from "../../img/intro.jpg"
+import fondo from "../../img/dark-pink.jpg"
 
 
 
@@ -24,7 +24,7 @@ export const Private = () => {
             <div id="bg-home" style={{ backgroundImage: `url(${fondo})` }} className="d-flex flex-column justify-content-center align-items-center vh-100 text-dark">
                 {/* <i className="fa-solid fa-circle-user fa-2xl"></i> */}
                 <h1>
-                    Bienvenid@ a tu perfil {store.user.name}
+                    Bienvenido/a a tu perfil {store.user.name}
                 </h1>
                 <div>
                     {store.user.type_of_user == "personal"
