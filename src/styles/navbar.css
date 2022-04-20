@@ -1,0 +1,65 @@
+:root{
+    --darkgray: #212329;
+    --brightyellow: #fff76a;
+    --white: #fff;
+    --lightyellow: #fff98f;
+
+}
+
+.navbar{
+    background: rgb(4,73,84);
+    background: linear-gradient(90deg, rgba(4,73,84,1) 0%, rgba(5,44,47,1) 93%);
+}
+.nav-link{
+    color: var(--white)!important;
+    text-decoration: none;
+    margin: 5px 5px;
+    
+}
+.nav-link:hover{
+    color:var(--brightyellow)!important;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+
+}
+
+.nav-links-btn{
+    background-color: transparent;
+    padding: 10px 16px;
+    border: 2px solid;
+    border-radius: 30px;
+    font-weight: 600;
+    color: var(--primary);
+    cursor: pointer;
+    border-color: #fff76a;
+    color: var(--white);
+    margin: 1px 5px;
+    text-decoration: none;
+    width: 6rem;
+}
+.nav-links-btn:hover{
+    background-color: transparent;
+    color: rgb(4,73,84);
+    padding: 10px 16px;
+    border-radius: 30px;
+    border: solid 2px var(--brightyellow);
+    background-color: var(--brightyellow);
+
+}
+.navbar .navbar-collapse {
+    text-align: center;
+    width: 50%;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    color: var(--brightyellow)!important;
+    }
+.navbar .navbar-toggler:focus{
+    color: var(--brightyellow);
+    }
+.navbar-light .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 243, 5, 0.55%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e")
+    }
+.navbar-nav{
+    align-items: center;
+}

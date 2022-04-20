@@ -1,0 +1,120 @@
+*, *::after , *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/** GENERIC PARTY **/
+
+.parallax-fiesta{
+    color: #FFFFFF !important;
+    text-shadow: 2px 2px #0e0e0e;
+    background: url("https://res.cloudinary.com/venezuela/image/upload/v1648840826/Evento/fiesta9_sdflbs.jpg") no-repeat center center;
+}
+
+.details-fiesta{
+    color: #0e0e0e !important;
+    background: url("https://res.cloudinary.com/venezuela/image/upload/v1648786671/Evento/fiesta2_pfbvsx.jpg") no-repeat center center;
+}
+
+.info-fiesta{
+    color: #0e0e0e !important;
+}
+
+/** GENERIC RESTAURANT **/
+.parallax-restaurante{
+    color: #000000 !important;
+    background: url("https://res.cloudinary.com/venezuela/image/upload/v1648786765/Evento/eventorestaurant_xvplo4.jpg") no-repeat center center;
+}
+
+.details-restaurante{
+    color: #020202 !important;
+    background: url("https://res.cloudinary.com/venezuela/image/upload/v1648787423/Evento/restaurante2_ctymah.webp") no-repeat center center;
+}
+
+.info-restaurante{
+    color: #0e0e0e !important;
+    
+}
+
+/** GENERIC DIVERSION **/
+
+.parallax-diversion{
+    color: #ffffff !important;
+    background: url("https://res.cloudinary.com/venezuela/image/upload/v1648834302/Evento/diversion4_k9pnp8.jpg") no-repeat center center;
+}
+
+.details-diversion{
+    color: #000000 !important;
+    background: url("https://res.cloudinary.com/venezuela/image/upload/v1648834322/Evento/diversion5_ydrhwz.jpg") no-repeat center center;
+}
+
+.info-diversion{
+    color: #000000 !important;
+}
+
+/** GENERIC DISCO **/
+
+.parallax-discoteca{
+    color: white !important;
+    text-shadow: 2px 2px #0e0e0e;
+    background: url("https://res.cloudinary.com/venezuela/image/upload/v1648837236/Evento/disco6_qytvdn.png") no-repeat center center;
+}
+
+.details-discoteca{
+    color: #000000!important;
+    background: url("https://res.cloudinary.com/venezuela/image/upload/v1648838050/Evento/fiesta7_cem1lt.jpg") no-repeat center center;
+}
+
+.info-discoteca{
+    color: #000000 !important;
+    
+}
+
+
+/** GENERAL **/
+#mapContainer{
+    min-height: 400px;
+}
+
+#map{
+    height: 400px;
+    width: 100%;
+}
+
+.parallax{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0px !important;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 700px;
+}
+
+.description{
+    background-color: black;
+    min-height: 400px;
+}
+
+.description-text{
+    font-size: 1.5rem;
+}
+
+.details-info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0px !important;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.info-detail {
+    font-size: 1.5rem;
+}
+
+.info-detail span{
+    font-weight:bold;
+}
+
+

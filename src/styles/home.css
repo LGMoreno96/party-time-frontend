@@ -1,0 +1,119 @@
+#bg-home{
+    background: rgb(4,73,84);
+    background: linear-gradient(90deg, rgba(4,73,84,1) 0%, rgba(5,44,47,1) 93%);
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    min-height: 100vh;
+}
+.parallax-home{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0px !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    min-height: 700px;
+
+    color: white !important;
+    background: url("https://i.ibb.co/KsrDwb2/dj.jpg") no-repeat center center;
+}
+
+.home-caption {
+    bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+@media screen and (max-width: 576px) {
+    .slider-title {
+        font-size: 2.5em;
+    }
+
+    .slider-text {
+        font-size: 1.5em;
+    }
+    .btn-home{
+        width: 100%;
+    }
+    .imageHome{
+        height: 500px;
+    }
+
+    .home-caption {
+        margin-top: 125px;
+    }
+    .container-events{
+        padding: 0px 30px;
+    }
+}
+
+
+@media screen and (min-width: 576px) {
+    .slider-title {
+        font-size: 3em;
+    }
+
+    .slider-text {
+        font-size: 2em;
+    }
+
+    .home-caption {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .slider-title {
+        font-size: 4em;
+    }
+
+    .slider-text {
+        font-size: 2.5em;
+    }
+    
+    .home-caption {
+        margin-top: 150px;
+    }
+}
+
+
+@media screen and (min-width:1400px) { 
+    .container-events{
+        padding: 0px 100px;
+    }
+}
+
+@media screen and (min-width:1550px) { 
+    .container-events{
+        padding: 0px 200px;
+    }
+}
+
+#fila-eventos {
+    margin: auto;
+}
+
+.btn-info {
+    background-color: #044954;
+    font-weight: bold;
+    margin-top: 25px;
+    color: #FFFFFF;
+    border: 0px;
+    margin: auto;
+}
+
+.btn-light {
+    background-color: #ffee00;
+    font-weight: bold;
+    margin-top: 25px;
+    color: #FFFFFF;
+    border: 0px;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    border: none;
+    margin: 10px;
+}

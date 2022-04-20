@@ -1,0 +1,70 @@
+#bg-categories{
+    background-image: linear-gradient(to top left, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));
+    background-size: cover;
+    min-height: 100vh;
+}
+.container-categories{
+    font-family:Roboto,sans-serif;
+    background-image:url(https://image.freepik.com/free-vector/dark-blue-blurred-background_1034-589.jpg) ;
+    border-style: 1px solid grey;
+    margin: 0 auto;
+    opacity: 0.8;
+    max-width: 626px;
+    padding-top: 10px;
+    margin-top: 20px;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    border-radius: 15px;
+    padding: 25px 50px;
+}
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s;
+    cursor: pointer;
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+#categories-title{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+.party{
+    background-image: url(https://i.ibb.co/9GcX9k4/party4.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.restaurant{
+    background-image: url(https://i.ibb.co/4jBLd0M/restaurant.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.fun{
+    background-image: url(https://i.ibb.co/6gtBL1M/arcade.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.disco{
+    background-image: url(https://i.ibb.co/SBbkwdm/nclub1.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+#anchor-categories{
+    text-decoration:none!important;
+    color: white;
+}
+#anchor-categories:hover{
+    color: white;
+}

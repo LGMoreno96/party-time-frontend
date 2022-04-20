@@ -1,0 +1,17 @@
+
+    /** FAVORITES BACKGROUND **/
+.bg-favorites{
+    background: rgb(34,151,195);
+    background: linear-gradient(35deg, rgba(34,151,195,1) 0%, rgba(228,253,45,1) 100%);
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    min-height: 100vh;
+}
+
+#favorites-title{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+

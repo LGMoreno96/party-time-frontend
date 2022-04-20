@@ -1,0 +1,55 @@
+*, *::after , *::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parallax-services{
+  color: #000000 !important;
+  background: url("https://res.cloudinary.com/venezuela/image/upload/v1649193843/Evento/comercial_jurhhp.jpg") no-repeat center center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0px !important;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 600px;
+}
+
+/* CSS PROFILE */
+
+.details-profile{
+  color: #000000 !important;
+  background: url("https://res.cloudinary.com/venezuela/image/upload/v1649383454/Evento/servicios_kpnj3e.jpg") no-repeat center center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0px !important;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 600px;
+}
+
+.description-profile{
+  background: linear-gradient(90deg, rgba(4,73,84,1) 0%, rgb(4, 78, 83) 95%);
+  min-height: 400px;
+}
+
+.description-profile p{
+  font-size: 1.5rem;
+}
+
+.details-profile p{
+  font-size: 1.5rem;
+}
+
+.info-profile {
+  font-size: 1.5rem;
+}
+
+.btn-register{
+  background-color:#FFF76A;
+  width: 300px;
+  font-weight: bold;
+  margin-top: 25px;
+  text-align: left;
+  font-size: 1.5rem;
+}
